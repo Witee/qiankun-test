@@ -2,6 +2,7 @@
 
 
 > 三个项目都是通过 `create-react-app` 生成, 并做了精简.
+> qiankun: https://qiankun.umijs.org/zh/guide
 
 - 安装与启动
 分别进入 `main` `app1` `app2` 目录中执行:
