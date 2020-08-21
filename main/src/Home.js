@@ -1,6 +1,6 @@
 import React from 'react';
 
-function App() {
+function Home() {
   return (
     <div
       style={{
@@ -10,12 +10,16 @@ function App() {
         fontWeight: 600,
         fontSize: '20px',
         marginTop: '40px',
-        background: '#1890ff33',
       }}
     >
-      <h1>App1 !</h1>
+      <h1>
+        <span role="img" aria-label="welcome">
+          🎉
+        </span>
+        Welcome!
+      </h1>
     </div>
   );
 }
 
-export default App;
+export default Home;

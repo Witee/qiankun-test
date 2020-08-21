@@ -18,11 +18,10 @@ if (!window.__POWERED_BY_QIANKUN__) {
 }
 
 export async function bootstrap() {
-  console.log('react app bootstraped');
+  console.log('app2 bootstraped');
 }
 
 export async function mount(props) {
-  console.log(props);
   render(props);
 }
 

@@ -1,0 +1,85 @@
+/* 为了减少 CSS 全局污染, 不能使用全局样式 */
+@import '~antd/dist/antd.less';
+
+.main-app-logo {
+  width: 120px;
+  height: 36px;
+  background: #ffffff33;
+  margin: 14px 28px 14px 0;
+  float: left;
+}
+
+.amain-app-user {
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -64px;
+}
+
+// anticon
+.main-app-menu-submenu-title > .anticon {
+  display: inline-block;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+}
+.main-app-menu-submenu-title > .anticon > * {
+  line-height: 1;
+}
+.main-app-menu-submenu-title > .anticon svg {
+  display: inline-block;
+}
+.main-app-menu-item > .anticon::before,
+.main-app-menu-submenu-title > .anticon::before {
+  display: none;
+}
+.main-app-menu-submenu-title > .anticon .anticon-icon {
+  display: block;
+}
+.main-app-menu-submenu-title > .anticon[tabindex] {
+  cursor: pointer;
+}
+.main-app-menu-submenu-title > .anticon-spin {
+  display: inline-block;
+  animation: loadingCircle 1s infinite linear;
+}
+
+// a
+.main-app-menu-item > a {
+  color: #1890ff;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  -webkit-text-decoration-skip: objects;
+}
+.main-app-menu-item > a:hover {
+  color: #40a9ff;
+}
+.main-app-menu-item > a:active {
+  color: #096dd9;
+}
+.main-app-menu-item > a:active,
+.main-app-menu-item > a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+.main-app-menu-item > a:focus {
+  text-decoration: none;
+  outline: 0;
+}
+.main-app-menu-item > a[disabled] {
+  color: rgba(0, 0, 0, 0.25);
+  cursor: not-allowed;
+  pointer-events: none;
+}
