@@ -1,5 +1,5 @@
 {
-  "name": "single-spa-app1",
+  "name": "qiankun-app1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
