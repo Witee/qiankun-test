@@ -33,12 +33,6 @@ const apps = [
     activeRule: '/app1',
     loader: loading,
   },
-  // {
-  //   name: 'app2',
-  //   entry: '//localhost:4002',
-  //   container: '#subApp',
-  //   activeRule: '/app2',
-  // },
 ];
 
 registerMicroApps(apps);
